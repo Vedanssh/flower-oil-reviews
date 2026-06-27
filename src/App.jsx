@@ -160,7 +160,7 @@ export default function App() {
             </div>
             <div style={{ fontSize: 13, color: "#7c9082", marginTop: 4 }}>
               {count
-                ? `${count} review${count > 1 ? "s" : ""} from friends and family`
+                ? `${count} review${count > 1 ? "s" : ""}`
                 : "Be the first to share a review"}
             </div>
           </div>
